@@ -1,3 +1,5 @@
+
+// 1. Transform Data
 export function transformData(users) {
     if (!Array.isArray(users)) {
         throw new Error("Expected an array of users");
@@ -13,3 +15,18 @@ export function transformData(users) {
     }));
 }
 
+// 2. 
+export function appendId(users){
+    if (!Array.isArray(users)) {
+        throw new TypeError("Expected an array of users");
+    }
+    if (users.some(user => typeof user !== 'object' || user === null)) {
+        throw new TypeError("Expected an array of objects");
+    }
+
+    return users.map((user , i) =>({
+        ...user,
+        id: i + 1
+    }))
+
+}
