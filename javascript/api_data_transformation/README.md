@@ -43,4 +43,45 @@ Create a function that will take an array of users and return a new array where 
 
 
 ```
+# **Filter and Transform Active Users Challenge**
+
+## ** 3. Problem Statement**
+This challenge involves processing an array of user objects by:
+
+1. **Filtering** the list to include only users who have `isActive === true`.
+2. **Transforming** each remaining user object to include:
+   - `userId`: The original `id`
+   - `fullName`: The `name` in **uppercase**
+   - `contact`: The `email` in **lowercase**
+3. **(Bonus)** Sorting the filtered users alphabetically by `fullName`.
+
+---
+
+## **Example**
+### **Input:**
+```javascript
+const users = [
+  { id: 1, name: "Alice Johnson", email: "Alice@Example.com", isActive: true },
+  { id: 2, name: "Bob Smith", email: "BOB@Example.com", isActive: false },
+  { id: 3, name: "Charlie Brown", email: "Charlie@Example.com", isActive: true }
+];
+```
+### **Expected Output:**
+```javascript
+[
+  { userId: 1, fullName: "ALICE JOHNSON", contact: "alice@example.com" },
+  { userId: 3, fullName: "CHARLIE BROWN", contact: "charlie@example.com" }
+]
+```
+
+---
+
+## **Requirements**
+- Use **`filter()`** to remove inactive users.
+- Use **`map()`** to transform the data structure.
+- *(Bonus)* Use **`sort()`** to order users alphabetically by `fullName`.
+
+
+
+
 
