@@ -32,3 +32,36 @@ const students = [
   { name: "Frank", score: 85, rank: 3 }
 ]
 ```
+
+
+#
+
+## 2. **Problem Statement** 
+Write a function that takes an array of words and groups them together **if they contain the exact same letters**, regardless of order.  
+
+## **Requirements**  
+- Words must be grouped if they contain the **same exact letters**.  
+- **Different from anagrams**: The number of each letter must be the same.  
+- Return an **array of arrays**, where each sub-array contains words that belong together.  
+
+## **Example Input & Output**  
+
+### **Input:**  
+```javascript
+const words = ["abc", "bca", "cab", "xyz", "yxz", "zxy", "hello", "olelh"];
+console.log(groupWords(words));
+```
+### **Output:##
+
+```javascript
+[
+  ["abc", "bca", "cab"],
+  ["xyz", "yxz", "zxy"],
+  ["hello", "olelh"]
+]
+```
+
+
+
+<!-- Take in the array
+sort in alphabelical order to ensure the 

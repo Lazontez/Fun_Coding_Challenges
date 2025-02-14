@@ -1,4 +1,4 @@
-export default function topPerformers(students) {
+export function topPerformers(students) {
     if (!Array.isArray(students)) {
         throw new TypeError('Expected an array');
     }
@@ -27,4 +27,23 @@ export default function topPerformers(students) {
         });
 }
 
+// Problem 2
 
+export function groupWords(){
+
+const words = ["abc", "bca", "cab", "xyz", "yxz", "zxy", "hello", "olelh"];
+let groupedWords = {}
+
+for(let x in words){
+    let key = words[x].split('').sort().join('')
+    if(!groupedWords[key]){
+        groupedWords[key] = []
+    }
+    groupedWords[key].push(words[x])
+}
+
+return Object.values(groupedWords)
+
+}
+
+console.log(groupWords())
