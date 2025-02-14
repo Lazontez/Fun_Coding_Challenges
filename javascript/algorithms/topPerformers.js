@@ -29,9 +29,8 @@ export function topPerformers(students) {
 
 // Problem 2
 
-export function groupWords(){
+export function groupWords(words){
 
-const words = ["abc", "bca", "cab", "xyz", "yxz", "zxy", "hello", "olelh"];
 let groupedWords = {}
 
 for(let x in words){
@@ -45,5 +44,6 @@ for(let x in words){
 return Object.values(groupedWords)
 
 }
+const wrds = ["abc", "bca", "cab", "xyz", "yxz", "zxy", "hello", "olelh"];
 
-console.log(groupWords())
+console.log(groupWords(wrds))
