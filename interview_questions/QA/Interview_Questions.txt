@@ -1,0 +1,14 @@
+Interview Question:
+Describe the difference between manual and automated testing?
+When would you choose one over the other?
+
+Answer:
+Manual testing involves executing test cases manually without using automation tools, ensuring software meets requirements through human observation.
+It’s best suited for exploratory, usability, and ad-hoc testing.
+
+Automated testing, on the other hand, uses scripts and tools (e.g., Selenium, Cypress) to perform repetitive and regression tests efficiently.
+It is ideal for large-scale applications requiring frequent testing, ensuring faster execution and consistency.
+
+When to Choose One Over the Other:
+- Manual Testing: When conducting exploratory, usability, or one-time tests that require human judgment.
+- Automated Testing: When dealing with repetitive, regression, or performance testing where efficiency and scalability are crucial.

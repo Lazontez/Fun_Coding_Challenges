@@ -61,7 +61,25 @@ console.log(groupWords(words));
 ]
 ```
 
+## 2. Problem Statement
+Given an array of transactions, each containing an amount and type ("credit" or "debit"),
+write a function to calculate the final balance starting from an initial balance of 0.
 
+### Instructions
 
-<!-- Take in the array
-sort in alphabelical order to ensure the 
+#### Example Inpiut
+```javascript
+
+// Example Input:
+// const transactions = [
+//   { amount: 100, type: "credit" },
+//   { amount: 50, type: "debit" },
+//   { amount: 200, type: "credit" },
+//   { amount: 30, type: "debit" }
+// ];
+//
+// Expected Output:
+// finalBalance(transactions) // 220
+
+```
+

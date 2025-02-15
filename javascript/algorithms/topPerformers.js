@@ -1,3 +1,4 @@
+// Problem 1
 export function topPerformers(students) {
     if (!Array.isArray(students)) {
         throw new TypeError('Expected an array');
