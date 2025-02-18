@@ -83,3 +83,16 @@ write a function to calculate the final balance starting from an initial balance
 
 ```
 
+## 4. Challenge: **Palindrome Checker**
+
+### Description:
+Write a function that checks if a given string is a palindrome. A palindrome is a word, phrase, or sequence that reads the same backward as forward (ignoring spaces, punctuation, and letter case).
+
+### Problem Statement:
+Given a string, return `true` if the string is a palindrome and `false` otherwise. Ignore all non-alphanumeric characters and make the check case-insensitive.
+
+### Example:
+```js
+isPalindrome("A man, a plan, a canal, Panama") // true
+isPalindrome("Hello, World!") // false
+
