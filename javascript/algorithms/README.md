@@ -95,4 +95,15 @@ Given a string, return `true` if the string is a palindrome and `false` otherwis
 ```js
 isPalindrome("A man, a plan, a canal, Panama") // true
 isPalindrome("Hello, World!") // false
+```
+### 5. Problem Statement: 
+Given an unsorted array of integers, 
+write a function to find the length of the longest consecutive elements sequence.
+Your solution should run in O(n) time complexity.
+
+```javascript
+// Example Output
+const nums2 = [9, 1, 10, 3, 2, 4, 5, 8];
+ =// Example Output: 5
+```
 
