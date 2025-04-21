@@ -12,7 +12,6 @@ function reverseString(string) {
         start++;
         end--;
     }
-
     return array.join('');
 }
 
