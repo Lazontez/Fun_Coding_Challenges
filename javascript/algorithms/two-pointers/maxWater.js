@@ -3,8 +3,6 @@
 // Return the maximum amount of water a container can store.
 // Notice that you may not slant the container.
 
-
-
 /**
  * @param {number[]} height
  * @return {number}
@@ -15,9 +13,7 @@ var maxArea = function(height) {
     let maxArea = 0
     while(start < end){
         const maxi = Math.min(height[start],height[end]) * (end - start)
-        if(maxi > maxArea){
-            maxArea = maxi
-        }
+        if(maxi > maxArea){maxArea = maxi}
         (height[start] > height[end]?end--:start++)       
     }
     return maxArea
